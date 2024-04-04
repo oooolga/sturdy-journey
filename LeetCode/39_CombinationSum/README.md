@@ -6,7 +6,7 @@ The same number may be chosen from `candidates` an **unlimited number of times**
 
 The test cases are generated such that the number of unique combinations that sum up to `target` is less than `150` combinations for the given input.
 
-## Solution
+## Solution (beats 93%)
 
 *Run time: O(nlogn) where n represents the size of `candidates`. It's important to note that the number of unique combinations we can generate is capped at 150. Therefore, the runtime of the recursive function within our algorithm approximates to O(150n).*
 
