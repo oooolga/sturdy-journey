@@ -8,5 +8,6 @@
 | 39  | [ Combination Sum ]( https://leetcode.com/problems/combination-sum/description/ )                                                     | medium     | [solutions](./0039_CombinationSum/)                       |
 | 41  | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                           | hard       | [solutions](./0041_FirstMissingPositive/)                 |
 | 98  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                 | medium     | [solutions](./0098_ValidateBinarySearchTree/)
+| 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/) | hard | [solutions](./0149_MaxPointsOnALine/)
 | 244 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | hard | [solutions](./0233_NumberOfDigitOne/)
 | 335 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/description/) | hard | [solutions](./0335_PalindromePairs/) | [attempt 1](./0335_PalindromePairs/attempt1.py)
