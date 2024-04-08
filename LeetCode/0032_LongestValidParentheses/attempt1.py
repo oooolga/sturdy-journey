@@ -13,7 +13,6 @@ class Solution:
                     max_l = max(max_l, curr_valid_l)
                 except:
                     prev_valid_l.append(0)
-                    curr_valid_l = 0
         return max_l
 
 if __name__ == "__main__":
