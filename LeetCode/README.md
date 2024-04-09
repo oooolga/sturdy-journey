@@ -8,6 +8,7 @@
 | 32  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/) | hard | [solutions](./0032_LongestValidParentheses/) | 
 | 39  | [ Combination Sum ]( https://leetcode.com/problems/combination-sum/description/ )                                                     | medium     | [solutions](./0039_CombinationSum/)                       |
 | 41  | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                           | hard       | [solutions](./0041_FirstMissingPositive/)                 |
+| 77  | [Combinations](https://leetcode.com/problems/combinations/) | medium | [solutions](./0077_Combinations/)
 | 98  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                 | medium     | [solutions](./0098_ValidateBinarySearchTree/)
 | 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/) | hard | [solutions](./0149_MaxPointsOnALine/)
 | 244 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | hard | [solutions](./0233_NumberOfDigitOne/)
