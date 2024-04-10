@@ -8,9 +8,11 @@
 | 32  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/) | hard | [solutions](./0032_LongestValidParentheses/) | 
 | 39  | [ Combination Sum ]( https://leetcode.com/problems/combination-sum/description/ )                                                     | medium     | [solutions](./0039_CombinationSum/)                       |
 | 41  | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                           | hard       | [solutions](./0041_FirstMissingPositive/)
-| 60  | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/) | had | [solutions](./0060_PermutationSequence/)
+| 60  | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/) | hard | [solutions](./0060_PermutationSequence/)
 | 77  | [Combinations](https://leetcode.com/problems/combinations/) | medium | [solutions](./0077_Combinations/)
 | 98  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                 | medium     | [solutions](./0098_ValidateBinarySearchTree/)
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | easy | [solutions](./0141_LinkedListCycle/)
+| 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | medium | [solutions](./0142_LinkedListCycleII/)
 | 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/) | hard | [solutions](./0149_MaxPointsOnALine/)
 | 244 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | hard | [solutions](./0233_NumberOfDigitOne/)
 | 335 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/description/) | hard | [solutions](./0335_PalindromePairs/) | [attempt 1](./0335_PalindromePairs/attempt1.py)
