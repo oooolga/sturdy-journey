@@ -4,6 +4,7 @@
 | #  | Problem | Difficulty | Solution                                                | Attempts |
 |----|---------|------------|---------------------------------------------------------|----------|
 | 23  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | hard | [solutions](./0023_MergeKSortedLists/)
+| 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | hard | [solutions](./0025_ReverseNodesInKGroup/)
 | 30  | [ Substring with Concatenation of All Words ]( https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/ ) | hard       | [solutions](./0030_SubstringWithConcatenationOfAllWords/) | [attempt 1](./0030_SubstringWithConcatenationOfAllWords/attempt1.py); [attempt 2](./0030_SubstringWithConcatenationOfAllWords/attempt2.py)
 | 32  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/) | hard | [solutions](./0032_LongestValidParentheses/) | 
 | 39  | [ Combination Sum ]( https://leetcode.com/problems/combination-sum/description/ )                                                     | medium     | [solutions](./0039_CombinationSum/)                       |

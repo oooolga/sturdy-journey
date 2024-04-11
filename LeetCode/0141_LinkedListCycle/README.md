@@ -7,6 +7,10 @@ There is a cycle in a linked list if there is some node in the list that can be 
 Return `true` if there is *a cycle in the linked list*. Otherwise, return `false`.
 
 ## Solution 
+*Runtime: O(n)*
+
+*Space: O(1)*
+
 [Floyd's cycle detection (the tortoise and hare algirhtm)](https://math.stackexchange.com/questions/913499/proof-of-floyd-cycle-chasing-tortoise-and-hare).
 ## Code
 ```

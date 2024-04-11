@@ -7,6 +7,10 @@ There is a cycle in a linked list if there is some node in the list that can be 
 Do not modify the linked list.
 
 ## Solution
+*Runtime: O(n)*
+
+*Space: O(1)*
+
 Implement the Tortoise and Hare algorithm, returning None if the `hare_pointer` and `tortoise_pointer` do not meet. Continue advancing the tortoise_pointer, and initiate a second tortoise pointer, `tortoise_pointer2`, from the head. The cycle's starting node is identified at the point where `tortoise_pointer` and `tortoise_pointer2` meet.
 
 ## Proof
