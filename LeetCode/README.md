@@ -17,3 +17,4 @@
 | 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/) | hard | [solutions](./0149_MaxPointsOnALine/)
 | 244 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | hard | [solutions](./0233_NumberOfDigitOne/)
 | 335 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/description/) | hard | [solutions](./0335_PalindromePairs/) | [attempt 1](./0335_PalindromePairs/attempt1.py)
+| 679 | [24 Game](https://leetcode.com/problems/24-game/description/) | hard | [solutions](./0679_24Game/)
