@@ -26,6 +26,7 @@ Suppose we select two cards corresponding to any key `(card1, card2)` in the `tw
 
 3. We refer to the two_cards lookup table to find all possible outcomes of the last two remaining cards. We then compute all possible results from combining the outcomes of the initial two-card operations with these new results to see if any yield `24`. *(TODO: We could enhance the efficiency of the algorithm by adding a check to this step. Specifically, we can verify if we have already evaluated the outcomes of `(A, B)` combined with `(C, D)`. If this comparison has been completed, there's no need to repeat the process for `(C, D)` outcomes with `(A, B)`. This avoids redundant calculations and speeds up the execution of the algorithm.)*
 
+*Additional note: When solving this problem, you may encounter issues with underflow. To address this, I utilized the `round` function to prevent such problems by rounding the results to a specified number of decimal places.*
 ## Code
 ```
 class Solution:
