@@ -14,7 +14,7 @@
 - The function should be efficient (avoiding explicit loops where possible).
 
 ## Starter Code Template
-```
+```Python
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
