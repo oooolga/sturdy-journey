@@ -16,7 +16,7 @@ Implement the Multi-Head Self-Attention mechanism from scratch using only basic 
 
 ## Starter Code Template
 
-```
+```Python
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -45,7 +45,7 @@ class MultiHeadSelfAttention(nn.Module):
 ```
 
 ## Attempt \#1
-```
+```Python
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
