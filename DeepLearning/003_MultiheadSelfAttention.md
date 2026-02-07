@@ -86,3 +86,58 @@ class MultiHeadSelfAttention(nn.Module):
         out = out.reshape(B, N, D)
         return self.out_proj(out)
 ```
+
+# Bonus Challenge
+Complete the implementation below. Pay special attention to:
+- *The Scaling:* Integrating the $\sqrt{d_k}$ factor to prevent gradient vanishing.
+- *The Masking (Optional but good):* How would you apply a mask (like a causal mask or padding mask) before the softmax?
+- *The Matrix Multiplication:* Using torch.matmul or the @ operator across the last two dimensions.
+
+## Starter Code Template
+```Python
+import torch
+import torch.nn.functional as F
+
+def scaled_dot_product_attention(query, key, value, mask=None):
+    """
+    Args:
+        query: (Batch, Heads, Seq_Len, d_k)
+        key:   (Batch, Heads, Seq_Len, d_k)
+        value: (Batch, Heads, Seq_Len, d_v)
+        mask:  Optional mask tensor
+        
+    Returns:
+        output: (Batch, Heads, Seq_Len, d_v)
+        attention_weights: The softmax weights
+    """
+    # YOUR CODE HERE
+    pass
+```
+
+## Attempt \#1
+```Python
+import torch
+import torch.nn.functional as F
+
+def scaled_dot_product_attention(query, key, value, mask=None):
+    """
+    Args:
+        query: (Batch, Heads, Seq_Len, d_k)
+        key:   (Batch, Heads, Seq_Len, d_k)
+        value: (Batch, Heads, Seq_Len, d_v)
+        mask:  Optional mask tensor
+        
+    Returns:
+        output: (Batch, Heads, Seq_Len, d_v)
+        attention_weights: The softmax weights
+    """
+    B, H, S, D = query.shape
+
+    scale = 1 / torch.sqrt(D)
+    attn = query @ key.transpose(-1, -2) * scale
+    if mask:
+        attn = attn.masked_fill(mask==0, float('-inf'))
+    attn = attn.softmax(dim=-1)
+
+    return attn @ value, attn
+```
