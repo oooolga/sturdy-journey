@@ -61,3 +61,47 @@ def accumulate_alpha_blending(colors, opacities):
     # 3. Apply the blending formula
     return torch.sum(colors * opacities * transmittance, dim=1)
 ```
+
+# Similar Challenge: The 3DGS Rasterization Pipeline
+
+In a coding interview for a Graphics or Vision Engineer role, you might be asked to explain or implement the logic behind the "Splatting" process.
+
+**The Scenario:** You have a set of 3D Gaussians defined by their center $\mu$, covariance $\Sigma$, opacity $\alpha$, and color $c$ (often via Spherical Harmonics). You need to project these onto a 2D image plane.
+
+**The Math:** To project a 3D Gaussian to 2D, we use the Jacobian of the projective transformation $J$. The 2D covariance matrix $\Sigma'$ is approximated as:$$\Sigma' = J \cdot W \cdot \Sigma \cdot W^T \cdot J^T$$where $W$ is the viewing transformation (world-to-camera).
+
+## The Coding Challenge: The Tiled Alpha-Blending Step
+Once the Gaussians are projected to 2D and sorted by depth, we calculate the final color of a pixel using Point-Based Alpha Blending (similar to Volumetric Rendering in NeRF).
+
+**Your Task:** Write a function compute_pixel_color that calculates the final color $C$ of a pixel by iterating through $N$ sorted Gaussians that overlap with that pixel.
+
+**The Formula:** $$C = \sum_{i=1}^{N} c_i \alpha_i \prod_{j=1}^{i-1} (1 - \alpha_j)$$
+
+## Starter Code
+```Python
+import torch
+
+def compute_pixel_color(colors, opacities, densities):
+    # 1. Compute effective alpha for each Gaussian at this pixel
+    alphas = opacities * densities # Shape: (N,)
+    
+    # 2. Compute Transmittance (T_i): probability that light reaches this point
+    # T_i = Product of (1 - alpha_j) for all j < i
+    # We use a trick: cumprod of (1 - alphas), then shift by 1
+    oneminus_alpha = 1.0 - alphas + 1e-7 # Small epsilon for stability
+    
+    # cumprod gives: [(1-a0), (1-a0)(1-a1), (1-a0)(1-a1)(1-a2), ...]
+    cumprod_probs = torch.cumprod(oneminus_alpha, dim=0)
+    
+    # Roll/Shift to get T_i: [1, (1-a0), (1-a0)(1-a1), ...]
+    # This ensures the first Gaussian has a transmittance of 1.0
+    transmittance = torch.ones_like(cumprod_probs)
+    transmittance[1:] = cumprod_probs[:-1]
+    
+    # 3. Final Color: Sum of (Color * Alpha * Transmittance)
+    # weights shape: (N,)
+    weights = alphas * transmittance
+    
+    # result shape: (3,)
+    return torch.sum(colors * weights[:, None], dim=0)
+```
