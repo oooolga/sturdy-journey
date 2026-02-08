@@ -24,3 +24,11 @@
 | 017 | [LoRA-Integrated MHSA](./017_LoRAIntegratedMHSA.md) | Transformer | Medium |
 | 018 | [Manual2DConvolution](./018_Manual2DConvolution.md) | CNN, CV | Medium |
 | 019 | [MHSA Run-time Complexity](./019_MHSACompexity.md) | Transformer | Medium |
+| 020 | [Manual 2D BatchNorm](./020_Manual2DBatchNorm.md) | General, CV | Hard |
+| 021 | [InfoNCELoss](./021_InfoNCELoss.md) | General | Medium |
+| 022 | [Log-Sum-Exp Trick](./022_LogSumTrick.md) | General | Hard |
+| 023 | [LoRA vs Full Fine-tuning Runtime Complexity](./023_LoRAvsFullFTComplexity.md) | General | Easy |
+| 024 | [The Focal Loss](./024_TheFocalLoss.md) | General | Easy |
+| 025 | [Camera Conditioned Cross-Attnetion](./025_CameraConditionedCrossAttention.md) | Transformer, CV | Medium |
+| 026 | [CNN vs ViT Runtime Complexity](./026_CNNvsViTComplexity.md) | CNN, ViT, Transformer, CV | Easy |
+| 027 | [Factorized Spatial-Temporal Attention](./027_FactorizedSpatialTemporalAttention.md) | ViT, Transformer, CV | Easy |
