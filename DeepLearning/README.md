@@ -40,3 +40,4 @@
 | 033 | [Time Conditioned Flow Layer](./033_TimeConditionedFlowLayer.md) | Flow Matching, Transformer | Medium |
 | 034 | [6D Rotation Representation](./034_6DRotationRepresentation.md) | 3D Vision | Medium |
 | 035 | [Get 3D Positional Embedding](./035_Get3DPositionalEmbedding.md) | 3D Vision, General | Medium |
+| 036 | [Manual LayerNorm](./036_ManualLayerNorm.md) | General | Easy |
