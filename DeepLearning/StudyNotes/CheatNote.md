@@ -9,6 +9,7 @@
 - LoRA Implementation: [`lora_out = (x @ self.lora_A) @ self.lora_B`](../013_LoRALayerImplementation.md)
 - Matrix inverse: [`torch.linalg.inv`](../014_DepthToWorldCoordinate.md)
 - Unfold patches for CNN: [`patches = F.unfold(x, kernel_size=K, stride=self.stride)# B, C*K*K, num_patches`](../018_Manual2DConvolution.md)
+- Matrix distance: [`torch.dist`](../032_RotationalConsistencyCheck.md)
 
 ## DL Concepts
 - LoRA + MHSA: [only apply to `q` and `v`](../017_LoRAIntegratedMHSA.md)

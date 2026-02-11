@@ -35,3 +35,5 @@
 | 028 | [Real-time Virtual Cinematographer](./028_RealTimeAIVideoVirtualCinematographer.md) | ML Design, 3D Vision | Easy |
 | 029 | [The Digital Twin of Live Sport Match](./029_DigitalTwinOfALiveSportMatch.md) | ML Design, 4D Vision | Medium |
 | 030 | [The Neural Green Screen](./030_TheNeuralGreenScreen.md) | ML Design, 4D Vision | Medium |
+| 031 | [The Dynamic Re-Cinematographer](./031_DynamicReCinematographer.md) | ML Design, 4D Vision | Medium |
+| 032 | [Rotational Consistency Check](./032_RotationalConsistencyCheck.md) | 3D Vision | |

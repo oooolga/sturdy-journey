@@ -21,6 +21,8 @@
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | medium | [solutions](./0162_FindPeakElement/)
 | 244 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | hard | [solutions](./0233_NumberOfDigitOne/)
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | medium | [solutions](./0279_PerfectSquares/)
+| 311 | [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) | medium | [solutions](./0311_SparseMatrixMultiplication/)
 | 335 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/description/) | hard | [solutions](./0335_PalindromePairs/) | [attempt 1](./0335_PalindromePairs/attempt1.py)
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | medium | [solutions](./0435_NonOverlappingIntervals/)
+| 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | medium | [solutions](./0494_TargetSum/)
 | 679 | [24 Game](https://leetcode.com/problems/24-game/description/) | hard | [solutions](./0679_24Game/)
