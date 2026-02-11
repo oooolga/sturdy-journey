@@ -36,4 +36,7 @@
 | 029 | [The Digital Twin of Live Sport Match](./029_DigitalTwinOfALiveSportMatch.md) | ML Design, 4D Vision | Medium |
 | 030 | [The Neural Green Screen](./030_TheNeuralGreenScreen.md) | ML Design, 4D Vision | Medium |
 | 031 | [The Dynamic Re-Cinematographer](./031_DynamicReCinematographer.md) | ML Design, 4D Vision | Medium |
-| 032 | [Rotational Consistency Check](./032_RotationalConsistencyCheck.md) | 3D Vision | |
+| 032 | [Rotational Consistency Check](./032_RotationalConsistencyCheck.md) | 3D Vision | Easy |
+| 033 | [Time Conditioned Flow Layer](./033_TimeConditionedFlowLayer.md) | Flow Matching, Transformer | Medium |
+| 034 | [6D Rotation Representation](./034_6DRotationRepresentation.md) | 3D Vision | Medium |
+| 035 | [Get 3D Positional Embedding](./035_Get3DPositionalEmbedding.md) | 3D Vision, General | Medium |
