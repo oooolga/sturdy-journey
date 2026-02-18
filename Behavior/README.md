@@ -11,6 +11,13 @@ To give a polish response, try to follow the following framework:
 
 
 ## Example Questions
-- Tell me about a time you worked on a project and realized midway through that your original approach or hypothesis was wrong. How did you handle that realization?
-- Tell me about a time when you had a significant disagreement with a coworker or manager. How did you approach the situation, and what was the outcome?
+1. Tell me about a time you worked on a project and realized midway through that your original approach or hypothesis was wrong. How did you handle that realization?
+2. Tell me about a time when you had a significant technical disagreement with a teammate or a supervisor. How did you present your case, and what was the resolution?
+3. Tell me about a time you received tough or critical feedback from a teammate or manager.
+4. Describe a time when you had to start a project with very limited resources or data. How did you decide where to begin, and how did you ensure the project's success?
+5. Tell me about a time you made a mistake that impacted other people (teammates, a project timeline, etc.)
+6. Tell me about a time you took initiative to improve something that wasn't explicitly your responsibility.
+7. Tell me about a time you had to learn something completely new quickly in order to complete a task.
+8. Tell me a time you had to give someone difficult feedback.
+9. Tell me about a time you had to manage multiple high-priority tasks at once.
 
